@@ -1,0 +1,77 @@
+
+
+html{
+	font-size: 16px;
+
+
+}
+
+@font-face {
+	font-family: "fader";
+	src: url(fonts/WF-026510-009147-001253-3db37e90290cc07b3aba50bdd2a10396.woff);	
+
+
+}
+
+section {	
+	width:900px;
+	margin:0 auto;
+	margin:green;	
+}
+
+section > img {
+	max-width: 100%;
+}
+
+div, h1, h3, p {
+	max-width: 75%;
+	margin:0 auto;
+	max-width: 640px;
+	min-width: 576px;
+
+}
+
+#title{
+	padding-top: 28px;
+	font-family: "fader", sans-serif;
+	font-size: 56px;
+
+	line-height: 64.4px;
+	max-width: 640px;
+	min-width: 576px;
+	color: rgb(35,225,125);
+
+}
+
+#subtitle{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-family: "fader", sans-serif;
+	font-size: 22.4px;
+	font-weight: 100;
+	line-height: 34.48px;
+	max-width: 640px;
+	min-width: 576px;
+	color: rgb(35,225,125);
+
+
+}
+
+.categories > a {
+	text-transform: uppercase;
+	color: #ff6699;
+	font-family: "Bodani Clear", Helvetica, sans-serif ;
+	font-size: 1em;
+	font-weight: bold;
+	max-width: 640px;
+	min-width: 576px;
+
+}
+
+@media print{
+
+
+
+}
+
+
